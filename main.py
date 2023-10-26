@@ -9,8 +9,8 @@ sorted_arr = dheap.heap_sort(arr)
 arr = [12, 11, 13, 5, 6, 7, 1, 3, 8, 2, 9, 4]
 print(sorted_arr)
 
-arr = [randint(0, 100) for i in range(10)]
+arr = [randint(0, 100) for i in range(100)]
 
-k_mergesort = KMergeSort(4)
+k_mergesort = KMergeSort(5)
 
 print(k_mergesort.k_merge_sort(arr))
